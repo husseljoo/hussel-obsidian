@@ -1,0 +1,95 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 0,
+    "name": "Sunday",
+    "shortName": "Su"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": false,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "⋘ prev",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "previous-daily",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "periodic-notes:prev-daily-note"
+        }
+      ]
+    },
+    {
+      "label": "next ⋙ ",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "next-daily",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "periodic-notes:next-daily-note"
+        },
+        {
+          "type": "command",
+          "command": ""
+        }
+      ]
+    },
+    {
+      "label": "next-week ⋙ ",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "next-weekly",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "periodic-notes:next-weekly-note"
+        },
+        {
+          "type": "command",
+          "command": ""
+        }
+      ]
+    },
+    {
+      "label": "⋘ prev-week",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "previous-weekly",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "periodic-notes:prev-weekly-note"
+        },
+        {
+          "type": "command",
+          "command": ""
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}
